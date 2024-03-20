@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="Form.css
+    "
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3"></div>
+        
+        <div class="col-md-6">
+          <!-- form Container  -->
+          <section>
+            <div class="containerStyle">
+              <form>
+                <label class="labelStyle">User Name</label><br />
+                <input
+                  placeholder="Enter Name"
+                  class="inputStyle"
+                /><br />
+
+                <label class="labelStyle">Password</label><br />
+                <input
+                  type="password"
+                  placeholder="Enter Password"
+                  class="inputStyle"
+                /><br />
+
+                <label class="labelStyle">Confirm Password</label><br />
+                <input
+                  type="password"
+                  placeholder="Enter Confirm Password"
+                  class="inputStyle"
+                  style="padding: 10px;"
+                />
+                <br />
+                <div style="display: flex ;margin-top: 10px;">
+                  <input id="rememberChkBox" type="checkbox" />
+                  <span style="margin-top: 5px;"> Remember Me</span>
+                </div>
+<div style="display: flex; margin-top: 15px;">
+
+  <input type="checkbox" id="switch" class="checkbox" />
+  <label for="switch" class="toggle"> </label><span style="margin: 7px;"> OFF</span>
+</div>
+                <p>Please select your Stream:</p>
+                <input type="radio" value="CSE" />
+                <label for="html">CSE</label><br />
+                <input type="radio" value="Electrical" />
+                <label for="css">Electrical</label><br />
+                <input type="radio" value="Mechanical" />
+                <label>Mechanical</label><br/>
+
+                <label for="cars">Which country that you live:</label><br/>
+                <select name="cars" id="country" >
+                  <option class="optionStyle">India</option>
+                  <option>Canada</option>
+                  <option>Australia</option>
+                  <option>New Zealand</option>
+                </select>
+
+                <div style="display: flex; justify-content: space-between; margin-top: 50px;">
+                  <button class="cancelStyle"> Cancel </button>
+                  <button class="nextStyle"> Next </button>
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </body>
+</html>
