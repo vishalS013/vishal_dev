@@ -3,43 +3,52 @@
   padding: 0%;
 }
 body {
-  background-image: linear-gradient(rgb(20,25,30))
+  background-image: linear-gradient(rgb(20, 25, 30));
 }
 .containerStyle {
-  width: 80%;
+  width: 70%;
+  margin: auto;
   border: 1px solid black;
   background-color: white;
-  padding: 25px;
-  margin-top: 15px;
-  /* margin: 20px 60%; */
+  padding: 15px;
   border-radius: 10px;
 }
 .labelStyle {
-  font-size: 12px;
-  margin: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  /* margin-top: 5px;/ */
+  /* margin: 8px; */
+}
+.ConfirmInputStyle {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid red;
 }
 .inputStyle {
-  width:100%;
-  height: 40px;
-  border: 1px solid;
+  width: 100%;
+  height: 35px;
+  border: 1px solid gray;
   border-radius: 5px;
   padding: 10px;
 }
 ::placeholder {
-  color: blueviolet;
+  color: gray;
   margin: 40px;
 }
 #rememberChkBox {
-  height: 20px;
-  width: 30px;
- top: 10px;
+  height: 18px;
+  width: 25px;
+  top: 10px;
   margin: 5px;
+  border-radius: 20px;
 }
 .toggle {
   position: relative;
   display: inline-block;
-  width: 70px;
-  height: 30px;
+  width: 60px;
+  height: 25px;
   background-color: white;
   border-radius: 30px;
   border: 1px solid gray;
@@ -49,8 +58,8 @@ body {
 .toggle:after {
   content: "";
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 24px;
   border-radius: 50%;
   background-color: white;
   /* top: 1px;  */
@@ -59,15 +68,9 @@ body {
   border: 1px solid;
 }
 
-/* Toggle text */
-/* p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-} */
-
 /* Checkbox checked effect */
 .checkbox:checked + .toggle::after {
-  left: 38px;
+  left: 34px;
 }
 
 /* Checkbox checked toggle label bg color */
@@ -82,9 +85,9 @@ body {
 #country {
   width: 100%;
   height: 40px;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   border: 1px solid blueviolet;
-  
 }
 .cancelStyle {
   height: 40px;
@@ -94,6 +97,7 @@ body {
   font-size: 18px;
   font-family: serif;
   color: blueviolet;
+  background-color: white;
 }
 .nextStyle {
   font-size: 18px;
@@ -105,13 +109,10 @@ body {
   border: 2px solid;
   color: white;
 }
-#country option{
+#country option {
   background-color: blueviolet;
-  height: 30px;
   padding: 10px;
   font-size: 15px;
-   border: 2px solid;
-    color: white;
-
-  
+  border: 2px solid;
+  color: white;
 }
