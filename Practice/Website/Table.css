@@ -1,0 +1,62 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.fa-eye {
+  color: blue;
+}
+.fa-chart-simple {
+  color: rgb(69, 189, 69);
+}
+.fa-trash {
+  color: red;
+}
+
+.sortStyle {
+  margin-left: 2px;
+}
+.trStyle {
+  margin: 0px auto;
+  width: 300px;
+  border-bottom: 1px solid black;
+  height: 1px;
+  border: 0;
+  padding: 0;
+}
+.endStyle{
+    display: flex;
+     margin-top: 10px
+}
+.endStyleInner{
+    display: flex; 
+    justify-content: space-evenly
+}
+.textEndStyle{
+   margin-top: 7px;
+   color: gray;
+}
+.trOneStyle{
+    color: turquoise;
+}
+.btnStyle{
+    background-color: gray;
+    height: 35px;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.btnStyleSec{
+    background-color: white;
+    height: 35px;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+}

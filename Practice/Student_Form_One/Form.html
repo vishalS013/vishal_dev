@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      />
     <link
       rel="stylesheet"
       href="Form.css
@@ -18,30 +18,26 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3">
-          <!-- <div style="background-color: green; height: 300px;">
-
-          </div> -->
-        </div>
+        <div class="col-md-3" ></div>
 
         <div class="col-md-6"  >
           <!-- form Container  -->
           
             <div class="containerStyle" >
               <form>
-                <label class="labelStyle">Username</label><br />
-                <input placeholder="Enter username" class="inputStyle" /><br />
-                <label class="labelStyle">Password</label><br />
+                <label class="labelStyle">Username</label>
+                <input placeholder="Enter username" class="inputStyle" />
+                <label class="labelStyle" style="margin-top:12px;">Password</label>
                 <input
                   type="password"
                   placeholder="Enter Password"
                   class="inputStyle"
-                /><br />
+                />
                 <p style="margin-top: 5px; font-size: 12px">
                   your password is between 4 and 12 characters
                 </p>
 
-                <label class="labelStyle">Input Text Label </label><br />
+                <label class="labelStyle">Input Text Label </label>
                 <div style="display: flex; ">
 
                   <input
@@ -72,48 +68,34 @@
                 <div style="display: flex; margin-top: 10px">
                   <input type="checkbox" id="switch" class="checkbox" />
                   <label for="switch" class="toggle"> </label
-                  ><span style="margin-top:4px;margin-left: 5px;"> OFF</span>
+                  ><span style="margin-top:4px;margin-left: 5px;"> Off</span>
                 </div>
-                <div style="margin-top: 10px">
-                  <p>Please select your Stream:</p>
+                <div style="margin-top: 5px">
                   <div style="display: flex">
                     <input type="radio" value="CSE" />
                     <label
-                      style="
-                        margin-top: 10px;
-                        margin-left: 15px;
-                        font-size: 12px;
-                      "
-                      >CSE</label
+                    class="radioStyle"
+                      >Radio selection 1</label
                     ><br />
                   </div>
 
                   <div style="display: flex">
                     <input type="radio" value="Electrical" />
-                    <label
-                      style="
-                        margin-top: 10px;
-                        margin-left: 15px;
-                        font-size: 12px;
-                      "
-                      >Electrical</label
+                    <label class="radioStyle"
+                      >Radio selection 2</label
                     ><br />
                   </div>
                   <div style="display: flex">
                     <input type="radio" value="Mechanical" />
                     <label
-                      style="
-                        margin-top: 10px;
-                        margin-left: 15px;
-                        font-size: 12px;
-                      "
-                      >Mechanical</label
+                    class="radioStyle"
+                      >Radio selection 3</label
                     >
                   </div>
                 </div>
 
-                <label style="font-size: 12px; margin-top: 5px"
-                  >Which country that you live:</label
+                <label style="font-size: 11px; margin-top: 5px"
+                  >Dropdown Title:</label
                 ><br />
                 <select name="cars" id="country">
                   <option class="optionStyle">India</option>
@@ -126,7 +108,7 @@
                   style="
                     display: flex;
                     justify-content: space-between;
-                    margin-top:10px;
+                    margin-top:15px;
                   "
                 >
                   <button class="cancelStyle">Cancel</button>
@@ -139,50 +121,11 @@
         </div>
 
         <div class="col-md-3">
-          <!-- <div style="background-color: red; height: 300px;">
-
-          </div> -->
         </div>
       </div>
 
-      <!-- <section > -->
-
-      <!-- <div class="row">
-        <div class="col-md-6" style="background-color: tomato">
-          <div style="background-color: blueviolet; margin-top: 20px">
-            <ul
-              style="
-                display: flex;
-                justify-content: space-between;
-                background-color: cadetblue;
-                list-style-type: none;
-                padding: 10px;
-              "
-            >
-              <li>Home</li>
-              <li>About</li>
-              <li>Services</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6" style="background-color: tomato">
-          <div style="background-color: yellowgreen; margin-top: 20px">
-            <ul
-              style="
-                display: flex;
-                justify-content: space-between;
-                background-color: cadetblue;
-                padding: 10px;
-              "
-            >
-              <li>Home</li>
-              <li>About</li>
-              <li>Services</li>
-            </ul>
-          </div>
-        </div>
-      </div> -->
+      
     </div>
-    <!-- </section> -->
+  
   </body>
 </html>
