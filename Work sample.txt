@@ -1,0 +1,19 @@
+Good morning 
+TODO/Work Plan (26-03-2024)
+
+1. Creating table for displaying data.  (1 hr)
+2. Java Script overview. (3 hrs)
+3. reading more about css properties (1 hr) 
+
+Thanks
+
+
+Good Evening 
+EOD/Work Report (26-03-2024)
+
+1. learn about how to display data horizontally & vertically in table. - Done (30 mins)
+2. Table colspan-rowspan thead tbody tfoot - Done (30 mins)
+3. Read about margin padding text shadow , background image props. - Done(2 hr)
+4. Made some changes in the table to exactly look like the image. - Done  (1 hr )
+5. Java Script strings, booleans - done. Array methods, number - pending (2 hr)
+Thanks

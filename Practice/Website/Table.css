@@ -1,27 +1,38 @@
+body {
+  /* font-family: "Sofia", sans-serif; */
+}
 table {
-  font-family: arial, sans-serif;
+  /* font-family: arial, sans-serif; */
   border-collapse: collapse;
   width: 100%;
 }
-
 td,
 th {
   border-bottom: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  padding: 10px;
+  font-size: 12px;
+  padding-top: 25px;
 }
 .fa-eye {
   color: blue;
+  font-size: 9px;
 }
 .fa-chart-simple {
   color: rgb(69, 189, 69);
+  margin-left: 3px;
+  font-size: 13px;
 }
 .fa-trash {
   color: red;
+  margin-left: 3px;
+  font-size: 12px;
 }
 
-.sortStyle {
+.fa-sort {
   margin-left: 2px;
+  margin-top: 10px;
+  font-size: 11px;
 }
 .trStyle {
   margin: 0px auto;
@@ -31,32 +42,39 @@ th {
   border: 0;
   padding: 0;
 }
-.endStyle{
-    display: flex;
-     margin-top: 10px
+.endStyle {
+  display: flex;
+  margin-top: 10px;
 }
-.endStyleInner{
-    display: flex; 
-    justify-content: space-evenly
+.endStyleInner {
+  display: flex;
+  justify-content: space-evenly;
 }
-.textEndStyle{
-   margin-top: 7px;
-   color: gray;
+.textEndStyle {
+  margin-top: 7px;
+  color: gray;
 }
-.trOneStyle{
-    color: turquoise;
+.trOneStyle {
+  color: turquoise;
 }
-.btnStyle{
-    background-color: gray;
-    height: 35px;
-    width: 40px;
-    border-radius: 5px;
-    border: none;
+.btnStyle {
+  background-color: gray;
+  height: 35px;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
 }
-.btnStyleSec{
-    background-color: white;
-    height: 35px;
-    width: 40px;
-    border-radius: 5px;
-    border: none;
+.btnStyleSec {
+  background-color: white;
+  height: 35px;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+}
+/* #customers tr:nth-child(even){
+  background-color: blueviolet;
+} */
+#customers tr:hover{
+  background-color: orchid;
+  color: white;
 }
