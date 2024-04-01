@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imageContainer {
+    background-image: url(3d-delivery-robot-working.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 568px;
+    /* position: relative; */
+
+}
+
+.contentContainer {
+    /* background-color: #6179c0f8; */
+       /* background-color: #6179c0f8; */
+       background-color: hsl(248, 80%, 70%);
+       height: 550px;
+       /* width: 417px; */
+       position: absolute;
+       /* right: 155px; */
+       top: 10px;
+       border-radius: 25px;
+       left: 60%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    /* width: 370px; */
+    height: 45px;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.buttonStyle {
+    height: 45px;
+    width: 160px;
+    border-radius: 15px;
+    background-color: rgb(244, 244, 249);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: rebeccapurple;
+    border: 1px solid black;
+}
+
+.buttonStyleTwo {
+    height: 45px;
+    width: 160px;
+    border-radius: 15px;
+    background-color: rebeccapurple;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid white;
+    opacity: 0.9;
+}
+
+.inputStyle {
+    width: 370px;
+    height: 45px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 5px;
+    background-color: blueviolet;
+    border: none;
+}
+
+.inputStyle::placeholder {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.inputStyle:hover {
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+.innerInputContainer {
+    padding: 20px;
+}
+
+.labelStyle {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-top: 10px;
+}
+
+.fa-eye-slash {
+    right: 20px;
+    position: absolute;
+    top: 20px;
+
+}
+
+.forgotTextStyle {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    color: black;
+}
+.endButton{
+    width: 370px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.endButton:hover {
+    background-color: rgb(37, 130, 43);
+  }
+.endButtonTwo{
+    width: 370px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.9;
+
+}
+.endButtonTwo:hover {
+    background-color:rgb(37, 130, 43);
+  }
+.hrText{
+    line-height: 1px ;
+  color: black;
+  text-align: center;
+ 
+}
+.orStyle{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    right: 50%;
+    top: -10px;
+}
+
+
+
+ 

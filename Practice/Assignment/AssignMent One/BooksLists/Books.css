@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: blueviolet;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  font-size: 20px;
+  font-weight: 600;
+  /* float: left; */
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 100px;
+  text-decoration: none;
+  margin-bottom: -8px;
+}
+.navbar a:hover {
+  background-color:rgb(226, 43, 144);
+}
+.headStyle {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+.imageContainer {
+  background-image: url(booksbg.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: gray;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.contentContainer {
+  height: 300px;
+  padding: 40px;
+  margin-top: 10px;
+}
+
+.buttonStyle {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 150px;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+  box-shadow: 3px 3px 10px rgb(17, 2, 32);
+}
+
+.listingContainer {
+  background-color: blueviolet;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.imageContainerList {
+  margin-top: 15px;
+}
+
+.imageCont {
+  background-color: white;
+  height: 230px;
+  width: 210px;
+  padding: 10px;
+}
+
+.imageStyle {
+  height: 210px;
+  width: 190px;
+}
+
+.imageStyleTwo {
+  height: 210px;
+  width: 190px;
+  border: 1px solid violet;
+}
+
+.bookName {
+  margin: 7px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.rateStyle {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.textContainer {
+  margin-left: 40px;
+  padding: 20px;
+}
+
+.headingStyle {
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+  margin-top: 20px;
+}
+
+.headingStylesec {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.headingStyleThird {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+  border: none;
+  width: 180px;
+  border-radius: 15px;
+  height: 40px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 10px rgb(17, 2, 32);
+}

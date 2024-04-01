@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #8906c6bf;
+}
+.ImageContainer {
+    margin-top: 7px;
+    width: 106%;
+    height: 560px;
+    background-image: url(backimage);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 20px;
+    margin-left: 40px;
+    /* margin-top: 20px; */
+}
+.headStyleOne{
+   padding: 40px;
+    color: white;
+   
+}
+.headStyleTwo{
+    padding: 40px;
+     color: white;
+    
+ }
+.ImageContainerTwo {
+    margin-top: 7px;
+    background-color: white;
+    padding: 15px;
+    height: 550px;
+    width: 520px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.imageStyle {
+    height: 600px;
+    width: auto;
+}
+
+.buttonStyle {
+    height: 35px;
+    width: 210px;
+    border-radius: 20px;
+    /* background-color: rgb(158, 26, 158); */
+    background-color: #6F2dA8;
+    box-shadow: 3px 3px 10px blueviolet;
+    color: white;
+    border: 1px;
+    font-weight: 600;
+
+
+}
+.buttonStyleTwo{
+    height: 35px;
+    width: 210px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 3px 3px 10px blueviolet;
+    color: black;
+    border: 1px;
+    font-weight: 700;
+
+}
+.orStyle{
+    margin-top: 10px; 
+    margin-left: 10px; 
+    font-size: 13px; 
+    font-weight: 500;
+}
+.inputContainerStyle {
+    border: none;
+    width: 480px;
+    height: 35px;
+    background-color:aliceblue;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: -10px;
+
+}
+.inputContainerStyle::placeholder{
+    color: blueviolet;
+    font-size: 14px;
+    font-weight: 400;
+}
+.labelStyle {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    /* font-family: "Sofia", sans-serif; */
+    font-weight: 600;
+    margin-left: 10px;
+}
+.fa-google{
+    margin-right: 10px;
+}
+.fa-facebook{
+    margin-right: 15px;
+
+}
+.radioContainer{
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.fa-square{
+    margin-top: 4px;
+}
+.signUpButtonStyle{
+    border: none;
+    width: 480px;
+    height: 35px;
+    background-color:#2b145a;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 3px 3px 10px blueviolet;
+}
+.signUpButtonStyle::placeholder{
+    color: aliceblue;
+
+}
+.signUpButtonStyle:hover{
+    background-color: rgb(59, 151, 59);
+}
+.textStyleButton{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.linkStyle{
+    text-decoration: none;
+    color: #2b145a;
+    font-weight: 600;
+    font-size: 16px;
+}

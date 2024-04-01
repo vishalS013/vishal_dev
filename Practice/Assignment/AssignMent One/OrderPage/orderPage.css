@@ -1,0 +1,88 @@
+body {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+    background-image: url(orderbg.jpg);
+    font-family: Arial, sans-serif;
+
+  }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 100px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color:rgb(226, 43, 144);
+  }
+  .container {
+    max-width: 580px;
+    margin: 20px auto;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 6px -6px black  0px 0px 10px 5px  inset;
+    /* box-shadow: rgb(130, 137, 211) 0px 0px 10px 5px inset; */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+margin-left: 20px;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .endButtonTwo{
+    display: block;
+    width: 70%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(103, 15, 132);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-top: 3px;
+    border: 1px solid black;
+    margin: 0px auto;
+    box-shadow: 2px 5px 7px black;
+
+  }
+  
+  .endButtonTwo:hover {
+    background-color: rgb(53, 154, 53);
+  }
+  .bookTitle{
+    margin-bottom: 15px;
+    margin-left: 20px;
+
+  }

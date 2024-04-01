@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Order Page</title>
+  <link rel="stylesheet" href="orderPage.css">
+</head>
+<body>
+  <div style="margin: 0px 10px; ">
+
+  <div class="navbar">
+    <a href="../BooksLists/BooksLists.html">Home</a>
+    <a href="../AddBook/AddBook.html">Add To Cart</a>
+    <a href="../placeOrder/placeorder.html">Recent Orders</a>
+    <a href="../OrderPage/orderPage.html">Place Order</a>
+  </div>
+</div>
+
+  <div class="container">
+    <h1>Book Your Order</h1>
+    <form id="bookOrderForm">
+      <div class="formGroup">
+        <label class="bookTitle">Book Title:</label>
+        <input type="text" placeholder="The Monk Who Sold His Ferrari" >
+      </div>
+      <div class="formGroup">
+        <label class="bookTitle">Author:</label>
+        <input type="text" id="author" placeholder="Robin Sharma" >
+      </div>
+      <div class="formGroup">
+        <label class="bookTitle">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" >
+      </div>
+      <div class="formGroup">
+        <label class="bookTitle">price:</label>
+        <input  type="text"  placeholder="$33.86">
+      </div>
+
+      <button class="endButtonTwo"><a href="../placeOrder/placeorder.html"  style=" text-decoration: none;
+        color:white;
+        font-weight: 600;
+        font-size: 16px;">Place Order</a></button>
+    </form>
+  </div>
+</body>
+</html>
