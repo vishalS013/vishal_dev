@@ -1,0 +1,139 @@
+body {
+  background-color: rgb(245, 245, 245);
+}
+.header {
+  height: 50px;
+  /* background-color: white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 390px;
+}
+.hstyletext {
+  color: gray;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.sectionOne {
+  width: auto;
+  background-color: white;
+  height: 155px;
+  border: 1px solid gray;
+}
+.innerContainer {
+  margin-left: 10px;
+  /* background-color: brown; */
+}
+.FieldOne {
+  width: 100%;
+  /* background-color: brown;  */
+}
+.Fieldtwo {
+  /* width: 49%; */
+
+  /* background-color: blueviolet; */
+}
+.pContainer {
+  display: flex;
+  margin-top: 15px;
+}
+.FieldOne {
+  width: 50%;
+}
+.inputStyleFirst {
+  width: 50%;
+  height: 10px;
+  border: 1px solid;
+  margin-left: 15%;
+  margin-top: 10px;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.inputStyle {
+  width: 50%;
+  height: 10px;
+  border: 1px solid;
+  margin-left: 15%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.Fieldtwo {
+  width: 50%;
+}
+.inputStyleTwo {
+  width: 50%;
+  height: 10px;
+  border: 1px solid;
+  margin-left: 15%;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  /* position: relative; */
+}
+.fa-angle-down {
+  position: absolute;
+  right: 115px;
+  margin-top: 18px;
+}
+.sectionTwo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: blue; */
+  margin-top: 1%;
+}
+.middleContent {
+  background-color: white;
+  width: 49%;
+  border: 1px solid;
+  height: 500px;
+}
+.headingText {
+  font-size: 18px;
+  font-weight: bold;
+}
+.leftInputStyle {
+  width: 50%;
+  height: 10px;
+  margin-left: 20%;
+  background-color: blue;
+}
+.labelStyle {
+  width: 50px;
+  background-color: red;
+}
+.containerInput {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  align-items: center;
+  margin-top: 8px;
+
+}
+.inputCStyle{
+  height: 20px;
+   width: 65%; border-radius: 20px;
+  border: 1px solid gray;
+  padding: 5px;
+}
+.fa-angle-down{
+  position: absolute;
+  top: -8px;
+  right: 10px;
+ 
+}
+.imageContainer{
+  border-left: 2px solid gray;
+ height: 30px; 
+ width:30px; 
+ position: absolute;
+ right: 110px;
+ top: 10px;
+}
+.fa-calendar-days{
+  margin-left: 6px;
+  margin-top: 8px;
+}
